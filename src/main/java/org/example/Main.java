@@ -4,21 +4,16 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
-        // Step 1: Create Scanner object
-        Scanner sc = new Scanner(System.in);
-
-        // Step 2: Prompt user for input
-        System.out.print("Enter an integer: ");
-
-        // Step 3: Read integer input
-        int number = sc.nextInt();
-
-        // Step 4: Print the entered integer
-        System.out.println("You entered: " + number);
-
-        // Close the scanner
-        sc.close();
-
+        int c=4;
+        int b=7;
+        int a;
+        // a= 4
+        a = c;
+        //c = 7
+        c = b;
+        b= 4;
+        b= a;
+        System.out.print("c"+c);
+        System.out.print("b"+b);
     }
 }
